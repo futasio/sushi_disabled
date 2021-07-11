@@ -1,4 +1,6 @@
-const targetElement = document.querySelectorAll(".factor, .types");
+$(function() {
+    
+    const targetElement = document.querySelectorAll(".factor, .types");
 console.log(targetElement);  
 document.addEventListener("scroll", function(){
     for(let i  = 0;i < targetElement.length; i++){
@@ -34,3 +36,5 @@ $(document).ready(function() {
       return false;
     });
   });
+
+});
