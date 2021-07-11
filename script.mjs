@@ -1,5 +1,4 @@
-$(function() {
-    
+
     const targetElement = document.querySelectorAll(".factor, .types");
 console.log(targetElement);  
 document.addEventListener("scroll", function(){
@@ -12,7 +11,7 @@ document.addEventListener("scroll", function(){
         }
     }
 });
-});
+
 $(document).ready(function() {
     $(window).scroll(function() {
       if ($(this).scrollTop() > 0) {
